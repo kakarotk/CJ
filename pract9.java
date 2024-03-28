@@ -1,4 +1,4 @@
-import org.w3c.dom.events.MouseEvent;
+
 import java.awt.*;
 import java.awt.event.*;
 
@@ -13,7 +13,7 @@ class MouseAdapterExample1 extends MouseAdapter {
         f.addMouseListener(this);
 
         f.setSize(300, 300);
-        f.setLayout(null);
+       
         f.setVisible(true);
     }
 
@@ -23,7 +23,7 @@ class MouseAdapterExample1 extends MouseAdapter {
 
         g.setColor(Color.BLUE);
 
-        g.fillOval(e.getX(), e.getY(), 30, 30);
+        g.fillOval(80, 50, 30, 30);
     }
 }
 
